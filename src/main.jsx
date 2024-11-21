@@ -1,9 +1,10 @@
-import { StrictMode } from 'react'
+import { React } from 'react'
 import { ReactDOM } from 'react-dom/client'
-import {PrimerComponente} from './PrimerComponente'
+import { PrimerComponente } from './PrimerComponente'
+import './styles.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <React.StrictMode>
     <PrimerComponente />
-  </StrictMode>,
+  </React.StrictMode>,
 )
