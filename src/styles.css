@@ -4,6 +4,6 @@ body,html  {
     padding: 2%;
 }
 
-h1 {
-    color: black;
+.table {
+    box-sizing: border-box;
 }
